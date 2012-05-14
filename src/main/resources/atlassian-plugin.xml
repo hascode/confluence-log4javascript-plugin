@@ -6,11 +6,9 @@
 		<description>${project.description}</description>
 		<version>${project.version}</version>
 		<vendor name="${project.organization.name}" url="${project.organization.url}" />
+		<param name="plugin-icon">images/icon.png</param>
+		<param name="plugin-logo">images/logo.png</param>
 	</plugin-info>
-	<xhtml-macro name="javascript-logging-plugin" class="com.hascode.confluence.ExampleMacro"
-		key="my-macro">
-		<parameters />
-	</xhtml-macro>
 	<resource type="i18n" name="i18n"
 		location="com.hascode.confluence.javascript-logging-plugin" />
 	<web-resource name="Confluence Logging JS Resources"
