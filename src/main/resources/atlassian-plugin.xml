@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<atlassian-plugin key="${project.groupId}.${project.artifactId}"
+	name="${project.name}" plugins-version="2">
+	<plugin-info>
+		<description>${project.description}</description>
+		<version>${project.version}</version>
+		<vendor name="${project.organization.name}" url="${project.organization.url}" />
+	</plugin-info>
+	<xhtml-macro name="javascript-logging-plugin" class="com.hascode.confluence.ExampleMacro"
+		key="my-macro">
+		<parameters />
+	</xhtml-macro>
+	<resource type="i18n" name="i18n"
+		location="com.hascode.confluence.javascript-logging-plugin" />
+	<web-resource name="Confluence Logging JS Resources"
+		i18n-name-key="confluence-logging-js-resources.name" key="confluence-logging-js-resources">
+		<description key="confluence-logging-js-resources.description">Logging Webresources (disable if not needed)</description>
+		<resource name="log4javascript.js" type="download"
+			location="webresources/js/log4javascript-min.js">
+		</resource>
+		<context>main</context>
+	</web-resource>
+</atlassian-plugin>
