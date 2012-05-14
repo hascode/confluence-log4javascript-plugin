@@ -15,9 +15,9 @@ Confluence port based on Tim Down's popular JavaScript logging framework [log4ja
 
 This plugin is distributed under the [Apache License, Version 2.0].
 
-The logo is take from [FreeImages.co.uk].
+The logo is taken from [FreeImages.co.uk].
 
-![freeimagesuk](http://www.freeimages.co.uk/bitmaps/freeimagesuksmall.gif)
+[![FreeImages.co.uk](http://www.freeimages.co.uk/bitmaps/freeimagesuksmall.gif)](http://www.freeimages.co.uk/)
 
 ---------------
 
