@@ -15,6 +15,10 @@ Confluence port based on Tim Down's popular JavaScript logging framework [log4ja
 
 This plugin is distributed under the [Apache License, Version 2.0].
 
+The logo is take from [FreeImages.co.uk].
+
+![freeimagesuk](http://www.freeimages.co.uk/bitmaps/freeimagesuksmall.gif)
+
 ---------------
 
 ## Download ##
@@ -57,3 +61,5 @@ Please feel free to contact me at my website, [www.hascode.com] but for issues, 
   [Atlassian Plugin Exchange]:https://plugins.atlassian.com/plugins/com.hascode.confluence.javascript-logging-plugin
   [www.hascode.com]:http://www.hascode.com
   [issue-tracker]:https://bitbucket.org/hascode/confluence-log4javascript-plugin/issues
+  [FreeImages.co.uk]:http://www.freeimages.co.uk
+  
