@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="Confluence Log4Javascript Plugin">
+  <body>
+    <links>
+      <item name="Home" href="/" />
+    </links>
+
+    <menu name="Confluence Log4Javascript Plugin">
+      <item name="Introduction" href="index.html"/>
+      <item name="Screenshots" href="screenshots.html"/>
+      <item name="Download" href="download.html"/>
+    </menu>
+
+    <menu ref="reports"/>
+
+  </body>
+</project>

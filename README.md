@@ -55,6 +55,11 @@ Please feel free to contact me at my website, [www.hascode.com] but for issues, 
 
 -----------------
 
+## Plugin Website ##
+
+For additional information, please take a look at the [project's website].
+
+-----------------
 
   [log4javascript]:http://log4javascript.org/
   [Apache License, Version 2.0]:http://www.apache.org/licenses/LICENSE-2.0.html
@@ -62,4 +67,5 @@ Please feel free to contact me at my website, [www.hascode.com] but for issues, 
   [www.hascode.com]:http://www.hascode.com
   [issue-tracker]:https://bitbucket.org/hascode/confluence-log4javascript-plugin/issues
   [FreeImages.co.uk]:http://www.freeimages.co.uk
+  [project's website]:http://app.hascode.com/confluence-log4javascript-plugin/
   

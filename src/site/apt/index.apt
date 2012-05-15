@@ -1,0 +1,37 @@
+Introduction
+
+* About
+
+  Allows you to use the log4javascript logging API in your Confluence instance. 
+  
+  Confluence port based on Tim Down's popular JavaScript logging framework {{{http://log4javascript.org/}log4javascript}}.
+  
+* Usage
+
+	// 1. creates a new logger
+	var log = log4javascript.getLogger();
+	
+	// 2. create an appender . we're using the PopUpAppender here
+	var appender = new log4javascript.PopUpAppender();
+	
+	// 3. adds the appender to the logger
+	log.addAppender(appender);
+	
+	// 4. do some logging
+	log.warn("this is a warning");
+	
+	var log = log4javascript.getLogger();
+	var appender = new log4javascript.BrowserConsoleAppender();
+	log.addAppender(appender);
+	log.warn("this is a warning");
+	log.info("this is an info");
+	log.debug("visit my blog at www.hascode.com");
+
+	var log = log4javascript.getLogger();
+	var appender = new log4javascript.InPageAppender();
+	log.addAppender(appender);
+	log.warn("this is a warning");
+	log.info("this is an info");
+	log.debug("visit my blog at www.hascode.com");
+
+    

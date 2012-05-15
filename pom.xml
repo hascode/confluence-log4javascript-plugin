@@ -9,6 +9,7 @@
 	<name>javascript-logging-plugin</name>
 	<description>Allows you to use the log4javascript logging API in your Confluence instance.</description>
 	<packaging>atlassian-plugin</packaging>
+	<url>http://app.hascode.com/confluence-log4javascript-plugin/</url>
 
 	<organization>
 		<name>hasCode.com</name>
@@ -29,6 +30,17 @@
 			<comments>A business-friendly OSS license</comments>
 		</license>
 	</licenses>
+
+	<issueManagement>
+		<system>bitbucket</system>
+		<url>https://bitbucket.org/hascode/confluence-log4javascript-plugin/issues</url>
+	</issueManagement>
+
+	<scm>
+		<connection>scm:hg:https://bitbucket.org/hascode/confluence-log4javascript-plugin/</connection>
+		<developerConnection>scm:hg:https://bitbucket.org/hascode/confluence-log4javascript-plugin/</developerConnection>
+		<url>https://bitbucket.org/hascode/confluence-log4javascript-plugin/</url>
+	</scm>
 
 	<dependencies>
 		<dependency>
